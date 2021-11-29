@@ -29,7 +29,6 @@ def analyse_image(info_dict, image_name):
 
 def is_checked(image, box):
     color = np.mean(image[box[2]:box[3], box[0]:box[1], 0])
-    print(color)
     if color < 230:
         return True
     return False

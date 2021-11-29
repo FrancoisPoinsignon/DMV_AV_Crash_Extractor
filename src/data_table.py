@@ -1,6 +1,4 @@
-
 def create_empty_table():
-
     info_dict = {'crash': [],
                  'car': [],
                  'clear': [],

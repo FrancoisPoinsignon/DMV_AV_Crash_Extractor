@@ -1,4 +1,5 @@
 import pandas as pd
+from datetime import datetime
 
 from src.data_table import *
 from src.analyse_image import *
@@ -15,7 +16,7 @@ def main():
         print("Analysed " + image_name + " ...")
 
     data = pd.DataFrame.from_dict(data_dict)
-    data.to_csv('data.csv')
+    data.to_csv('data' + datetime.now().strftime('%d_%m_%Y__%H_%M_%S') + '.csv')
 
 
 if __name__ == "__main__":
