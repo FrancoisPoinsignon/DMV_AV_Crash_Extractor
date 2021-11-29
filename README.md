@@ -14,4 +14,4 @@ Python script to extract DVA Autonomous crash infos from PDF reports to a single
 ```bash
 python main.py
 ```
-3/ The CSV data associated will be stored in a "data.csv" file
+3/ The CSV data associated will be stored in a "data.csv" file (a CSV file for 2021 is already created)
