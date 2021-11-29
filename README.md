@@ -1,6 +1,6 @@
-# DVA_Data
+# DMV_AV_Crash_Extractor
 
-Python script to extract DVA Autonomous crash infos from PDF reports to a single CSV file.
+Python script to extract DMV Autonomous crash infos from PDF reports to a single CSV file.
 
 ## How to install
 1/ Pull or download the code  
