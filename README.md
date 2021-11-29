@@ -11,7 +11,7 @@ Python script to extract DVA Autonomous crash infos from PDF reports to a single
 ## How to use
 1/ Download the crash AV reports from https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-collision-reports/ and put them in the "reports" folder. (2021 reports are already in) 
 2/ Run "main.py" in a console:  
-'''
+```bash
 python main.py
-'''
+```
 3/ The CSV data associated will be stored in a "data.csv" file
