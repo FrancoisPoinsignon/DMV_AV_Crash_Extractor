@@ -3,12 +3,12 @@
 Python script to extract DVA Autonomous crash infos from PDF reports to a single CSV file
 
 ## How to install
-1/ Pull or download the code
-2/ Install poppler https://blog.alivate.com.au/poppler-windows/ (for Windows)
-3/ Add "C:\Program Files\poppler-0.68.0\bin" as a PATH environment variable
+1/ Pull or download the code \n
+2/ Install poppler https://blog.alivate.com.au/poppler-windows/ (for Windows) \n
+3/ Add "C:\Program Files\poppler-0.68.0\bin" as a PATH environment variable \n
 
 
 ## How to use
-1/ Download the crash AV reports from https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-collision-reports/ and put them in the "reports" folder
-2/ Run "main.py"
+1/ Download the crash AV reports from https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-collision-reports/ and put them in the "reports" folder \n
+2/ Run "main.py" \n
 3/ The CSV data associated will be stored in a "data.csv" file.
